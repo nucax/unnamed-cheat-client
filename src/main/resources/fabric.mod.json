@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "cheatclient",
+  "version": "${version}",
+  "name": "Cheat Client",
+  "description": "A Minecraft cheat client.",
+  "authors": [
+    "Jules"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/cheatclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.example.cheatclient.CheatClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}
